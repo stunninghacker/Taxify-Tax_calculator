@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1071659005307",
+    "project_id": "taxify-0",
+    "storage_bucket": "taxify-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071659005307:android:d2d37219d83b2195cbb9de",
+        "android_client_info": {
+          "package_name": "com.example.mine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNyheuGLX3u4eO9z3aSFL8PNX3k7r715Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

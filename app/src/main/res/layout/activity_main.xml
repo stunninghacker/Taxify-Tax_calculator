@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"> <!-- Stylish background -->
+
+    <!-- Top Navbar -->
+    <TextView
+        android:id="@+id/navbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Taxify"
+        android:textColor="@color/accentColor"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Main Content (Tax Calculator Form) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navbar_title"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Age Input -->
+        <EditText
+            android:id="@+id/age_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Enter Age"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Assessment Year Input -->
+        <EditText
+            android:id="@+id/assessment_year_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Enter Assessment Year"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Income Input -->
+        <EditText
+            android:id="@+id/income_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Enter Income"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Deductions Input -->
+        <EditText
+            android:id="@+id/deductions_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Enter Deductions"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@color/colorOnSecondary"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Tax Calculation Button -->
+        <Button
+            android:id="@+id/calculate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Tax"
+            android:background="@drawable/button_rounded_background"
+            android:textColor="@color/buttonTextColor"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"/>
+
+        <!-- Result TextView -->
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="@color/primaryColor"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!-- Bottom Navbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background"> <!-- Stylish background -->
+
+        <Button
+            android:id="@+id/nav_about_us"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="About Us"
+            android:textColor="@color/textColorPrimary"
+            android:background="@drawable/button_rounded_background"/>
+
+        <Button
+            android:id="@+id/nav_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Contact"
+            android:textColor="@color/textColorPrimary"
+            android:background="@drawable/button_rounded_background"/>
+    </LinearLayout>
+</RelativeLayout>

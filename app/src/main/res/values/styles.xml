@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomButtonStyle">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Bottom Navbar button style -->
+    <style name="BottomNavButtonStyle">
+        <item name="android:background">@drawable/button_rounded_background</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+
+        <!-- Text appearance for hint text -->
+    <style name="HintTextAppearance">
+            <item name="android:textColorHint">@color/hintColor</item>
+    </style>
+
+        <!-- Button styles -->
+    <style name="ButtonStyle">
+            <item name="android:background">@drawable/button_rounded_background</item>
+            <item name="android:textColor">@color/buttonTextColor</item>
+            <item name="android:padding">12dp</item>
+            <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
+

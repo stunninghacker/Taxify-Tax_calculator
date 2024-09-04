@@ -1,0 +1,36 @@
+<resources>
+    <!-- Primary color definitions -->
+    <color name="primaryColor">#004D40</color>
+    <color name="primaryLightColor">#39796b</color>
+    <color name="primaryDarkColor">#00251a</color>
+    <color name="accentColor">#80CBC4</color>
+
+    <!-- Text colors -->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#B0BEC5</color>
+    <color name="hintColor">#B0BEC5</color>
+
+    <!-- Button colors -->
+    <color name="buttonColor">#00796B</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="buttonColorHovered">#004D40</color>
+
+    <!-- Background colors -->
+    <color name="backgroundColor">#004D40</color>
+    <color name="background">#FFFFFF</color>
+    <color name="white">#FFFFFF</color> <!-- Added white color -->
+
+    <!-- Additional color definitions -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+
+    <!-- Gray color definition -->
+    <color name="grayLight">#E0E0E0</color> <!-- Light gray color for EditText background -->
+</resources>
